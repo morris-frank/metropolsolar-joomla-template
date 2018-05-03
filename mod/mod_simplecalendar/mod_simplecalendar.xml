@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>SimpleCalendar</name>
+    <author>Maurice Frank</author>
+    <version>0.1</version>
+    <description>A module to show the simplecalendar plugin</description>
+    <files>
+        <filename>mod_simplecalendar.xml</filename>
+        <filename module="mod_simplecalendar">mod_simplecalendar.php</filename>
+        <filename>tmpl/default.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>

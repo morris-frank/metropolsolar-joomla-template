@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>MetropolSolar</name>
+	<version>1.0</version>
+	<creationDate>3/4/2016</creationDate>
+	<author>Maurice Frank</author>
+	<authorEmail>maurice.frank@posteo.de</authorEmail>
+	<copyright>© MetropolSolar Rhein-Neckar</copyright>
+	<description>TPL_METROPOL_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>main-menu</position>
+
+		<position>debug</position>
+
+		<position>search</position>
+		<position>sidebar</position>
+
+		<position>position-3</position>
+		<position>pre-footer</position>
+
+		<position>footer</position>
+		<position>footer-column-1</position>
+		<position>footer-column-2</position>
+		<position>footer-column-3</position>
+		<position>footer-column-4</position>
+
+
+		<position>front-red-left</position>
+		<position>front-red-right</position>
+		<position>front-yellow-left</position>
+		<position>front-yellow-right</position>
+		<position>front-blue</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.tpl_metropol.ini</language>
+		<language tag="en-GB">en-GB.tpl_metropol.sys.ini</language>
+		<language tag="de-DE">de-DE.tpl_metropol.ini</language>
+		<language tag="de-DE">de-DE.tpl_metropol.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="templateBackgroundColor" class="" type="color" default="#FFFEFA"
+					label="TPL_METROPOL_BACKGROUND_COLOR_LABEL"
+					description="TPL_METROPOL_BACKGROUND_COLOR_DESC" />
+
+				<field name="sitetitle"  type="text" default="MetropolSolar Rhein-Neckar"
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				<field name="sitedeschead"  type="text" default="Wir bündeln Akteure"
+					label="TPL_METROPOL_SITEDESCHEAD_LABEL"
+					description="TPL_METROPOL_SITEDESCHEAD_DESC"
+					filter="string" />
+
+				<field name="sitedescbody"  type="textarea" default="Das 2006 gegründete Netzwerk MetropolSolar Rhein-Neckar fördert die vollständige Ablösung der atomarfossilen Energieversorgung durch Energieeffizienz, Energieeinsparung und den Ausbau der Nutzung aller erneuerbaren Energie"
+					label="TPL_METROPOL_SITEDESCBODY_LABEL"
+					description="TPL_METROPOL_SITEDESCBODY_DESC"
+					filter="string" />
+
+				<field name="logomapheadnw"  type="media" default=""
+					label="TPL_METROPOL_LOGOMAPHEADNW_LABEL"
+					description="TPL_METROPOL_LOGOMAPHEADNW_DESC"
+					directory="/"  />
+
+				<field name="logomapbodynw"  type="textarea" rows="10" cols="25" default=""
+					label="TPL_METROPOL_LOGOMAPBODYNW_LABEL"
+					description="TPL_METROPOL_LOGOMAPBODYNW_DESC"
+					filter="raw" />
+
+				<field name="logomapheadne"  type="media" default=""
+					label="TPL_METROPOL_LOGOMAPHEADNE_LABEL"
+					description="TPL_METROPOL_LOGOMAPHEADNE_DESC"
+					directory="/"  />
+
+				<field name="logomapbodyne"  type="textarea" rows="10" cols="25" default=""
+					label="TPL_METROPOL_LOGOMAPBODYNE_LABEL"
+					description="TPL_METROPOL_LOGOMAPBODYNE_DESC"
+					filter="raw" />
+
+				<field name="logomapheadsw"  type="media" default=""
+					label="TPL_METROPOL_LOGOMAPHEADSW_LABEL"
+					description="TPL_METROPOL_LOGOMAPHEADSW_DESC"
+					directory="/"  />
+
+				<field name="logomapbodysw"  type="textarea" rows="10" cols="25" default=""
+					label="TPL_METROPOL_LOGOMAPBODYSW_LABEL"
+					description="TPL_METROPOL_LOGOMAPBODYSW_DESC"
+					filter="raw" />
+
+				<field name="logomapheadse"  type="media" default=""
+					label="TPL_METROPOL_LOGOMAPHEADSE_LABEL"
+					description="TPL_METROPOL_LOGOMAPHEADSE_DESC"
+					directory="/"  />
+
+				<field name="logomapbodyse"  type="textarea" rows="10" cols="25" default=""
+					label="TPL_METROPOL_LOGOMAPBODYSE_LABEL"
+					description="TPL_METROPOL_LOGOMAPBODYSE_DESC"
+					filter="raw" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
